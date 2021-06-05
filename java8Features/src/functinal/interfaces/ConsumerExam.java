@@ -8,6 +8,7 @@ public class ConsumerExam {
 		Consumer<String>c=s->System.out.println(s);
            c.accept("Sundeep");
            c.accept("Mindtree");
+           c.accept("Ajay");
 	}
 
 }
